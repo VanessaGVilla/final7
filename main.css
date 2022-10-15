@@ -102,8 +102,6 @@ header img {
   color: white;
 }
 
-/* Formatted the style rule for the link for the page that’s currently displayed (in this case, home) to be of orange color text */
-#nav_menu a.current {
   /* text or font color of current page (ie, link (anchor <a> tag) with class of "current" in horizontal navigation bar*/
   color: orange;
 }
