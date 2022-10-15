@@ -5,7 +5,6 @@ background-image: url("https://raw.githubusercontent.com/VanessaGVilla/final7/ma
 background-repeat: repeat;
 
 }
-
 body {
   width: 800px;
   background-color: white;
@@ -21,7 +20,8 @@ a {
   font-weight: bold
 }
 
-/* Style rules for links that apply to all anchor tags (<a> tags) but Not to anchor tags inside aside (ie,Not to anchor tags inside sidebar) */
+/* Style rules for links that apply to all anchor tags (<a> tags) but Not to anchor tags inside aside 
+(ie,Not to anchor tags inside sidebar) */
 a:link:not(aside ul li a) {
   color: orange
 }
@@ -50,7 +50,6 @@ p {
 em {
   font-weight: bold;
 }
-
 
 /* the styles for the header */
 header {
@@ -102,7 +101,8 @@ header img {
   color: white;
 }
 
-  /* text or font color of current page (ie, link (anchor <a> tag) with class of "current" in horizontal navigation bar*/
+  /* text or font color of current page (ie, link (anchor <a> tag) with class of "current" 
+in horizontal navigation bar*/
   color: orange;
 }
 
@@ -126,8 +126,11 @@ header img {
   display: block;
 }
 
-/* Adding styles so that the link that the mouse is hovering over in nested sub menu (ie, Nested <ul>'s <a> tag inside <li>s ) in horizontal navigation bar has a gray background color*/
-/* Style rules for anchor (<a> tags) elements of Nested sub menu (ie, Nested <ul>'s <a> tags) for mouse hover over state*/
+/* Adding styles so that the link that the mouse is hovering over in nested sub menu
+(ie, Nested <ul>'s <a> tag inside <li>s )
+in horizontal navigation bar has a gray background color*/
+/* Style rules for anchor (<a> tags) elements of Nested sub menu (ie, Nested <ul>'s <a> tags)
+for mouse hover over state*/
 #nav_menu ul ul li a:hover {
   /* gray background color */
   background-color: gray;
